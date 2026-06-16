@@ -5,9 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Snowy Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #dff6ff, #ffffff);
+        }
+
+        .welcome-box {
+            padding: 40px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0, 100, 150, 0.2);
+        }
+
+        h1 {
+            color: #3187b8;
+            font-size: 40px;
+        }
+
+        p {
+            color: #555;
+            font-size: 20px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 10px;
+            background-color: #68c7e8;
+            color: white;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3ca6ce;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>ยินดีต้อนรับเข้าสู่เว็บไซต์ของ Snowy ❄️</h1>
+    <div class="welcome-box">
+        <h1>❄️ ยินดีต้อนรับเข้าสู่เว็บของ Snowy ❄️</h1>
+
+        <p>อาณาจักรแห่งน้ำแข็ง ความอบอุ่น และเรื่องราวมากมาย</p>
+
+        <button onclick="alert('ยินดีต้อนรับสู่โลกของ Snowy!')">
+            เข้าสู่เว็บไซต์
+        </button>
+    </div>
 </body>
 </html>
