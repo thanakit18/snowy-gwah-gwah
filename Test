@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowy Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #dffcff, #cfefff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 100, 150, 0.15);
+            text-align: center;
+            max-width: 500px;
+        }
+
+        h1 {
+            color: #1565a8;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #2f4f5f;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        button {
+            background-color: #7ed9f7;
+            color: #0f3d57;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #5fc7ec;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>❄️ ยินดีต้อนรับเข้าสู่เว็บไซต์ของ Snowy ❄️</h1>
+        <p>เว็บโทนฟ้าอ่อนสดใส อ่านง่าย และดูนุ่มนวล</p>
+        <button onclick="alert('Welcome to Snowy Website!')">เข้าสู่เว็บไซต์</button>
+    </div>
+</body>
+</html>
